@@ -1,0 +1,21 @@
+# depslib dependency file v1.0
+1367352476 source:f:\dropbox\ufu\cg\lab(s)\pratica4\main.cpp
+	<gl/gl.h>
+	<gl/glu.h>
+	<gl/glut.h>
+
+903468286 f:\programas\portable\codeblocks\glut\include\gl\glut.h
+	<windows.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
+1367352476 source:d:\reuel\dropbox\ufu\cg\lab(s)\pratica4\main.cpp
+	<gl/gl.h>
+	<gl/glu.h>
+	<gl/glut.h>
+
+903468286 d:\program files (x86)\codeblocks\glutdlls37beta\include\gl\glut.h
+	<windows.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
