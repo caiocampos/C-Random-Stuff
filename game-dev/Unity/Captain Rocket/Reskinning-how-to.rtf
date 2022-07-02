@@ -1,0 +1,86 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1347\cocoasubrtf570
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fnil\fcharset0 Menlo-Regular;}
+{\colortbl;\red255\green255\blue255;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww20200\viewh12820\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural
+
+\f0\fs24 \cf0 \
+Open the project folder with Unity 4.6+ (best too use Unity 5.x)\
+There are 3 scenes located under the Assets folder.\
+- Menu scene: the main menu\
+- Play scene: the game play scene\
+- Game Over scene: the game over screen\
+\
+\
+\
+Advertising:\
+Open the \'93menu\'94 scene in the assets folder, click on the UIManager game object. Look for the settings in the inspector tab.\
+Chartboost: In the top main menu bar of Unity, you will see a menu named \'93Chartboost\'94, click on it then click on edit settings. The settings will appear in the inspector. Change the iOS or Android chartboost app ID and app signature.\
+Make sure to go to the \'93chartboost\'94 website and enter the \'93more apps\'94 sections, and fill it up with some apps so that they appear when the player clicks \'93more apps\'94 button in the main menu.\
+\
+Google Admob:\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural
+\cf0 Open the \'93menu\'94 scene in the assets folder, click on the UIManager game object. Look for the settings in the inspector tab.\
+You will find the ADMOB_BANNER_ID\
+\
+Twitter:\
+Open the \'93menu\'94 scene in the assets folder, click on the UIManager game object. Look for the settings in the inspector tab.\
+You will find the Twitter message to change named: TWITTER_MESSAGE\
+\
+Rate / Review the app:\
+Open the \'93menu\'94 scene in the assets folder, click on the UIManager game object. Look for the settings in the inspector tab.\
+APP_ID_ITUNES_CONNECT entry: change it to your iTunes connect app bundle number\
+APP_ID_GOOGLE_PLAY entry: change it to your google play app ID\
+\
+Leaderboard:\
+Open the \'93menu\'94 scene in the assets folder, click on the UIManager game object. Look for the settings in the inspector tab.\
+LEADERBOARD_ID entry: change it to your iTunes connect leaderboard ID or your google play leaderboard ID.\
+\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural
+\cf0 \
+\
+Images:\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural
+\cf0 location: all image files are located within the following folder:  Assets/images/\
+\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural
+\cf0 \
+\
+Sounds:\
+location: all sound files are located within the following folder:  Assets/Sounds/\
+There is no copyrights on the sounds. Feel free to reuse them or don\'92t modify them at all.\
+\
+Unity settings:\
+Make sure you change the Unity \'93player settings\'94, add your game name, game app ID, and game icon.\
+\
+***\
+Building for iOS:\
+Make sure Unity is set to iOS, then click on build inside Unity. \
+Open the built project within Xcode. Add the GoogleMobileAds.framework to the project (we added it for you at the root of the project, or go get the latest on the developers.google.com website)\
+\pard\tx529\pardeftab529\pardirnatural
+
+\f1\fs22 \cf0 \CocoaLigature0 add these frameworks in Xcode build phase:\
+AdSupport\
+AudioToolbox\
+AVFoundation\
+CoreGraphics\
+CoreMedia\
+CoreTelephony\
+EventKit\
+EventKitUI\
+MessageUI\
+StoreKit\
+SystemConfiguration
+\f0\fs24 \CocoaLigature1 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural
+\cf0 Go to the build settings of the Xcode project, look for the entry \'93Enable modules\'94 and set it to Yes.\
+Make sure you have added your certificate and provisioning profiles otherwise you won\'92t be able to test the REMOVE ADS in-app purchase. \
+In your iPhone or iPad, make sure you have signed out of the real app store and real game center, and that you are using a test user you created in iTunes connect \'93roles and users\'94 section.\
+You can now run your game.\
+\
+\
+\
+\
+\
+\
+}
